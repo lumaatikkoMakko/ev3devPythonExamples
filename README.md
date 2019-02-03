@@ -32,7 +32,7 @@ Robottina on Lego Mindstorms ev3 tai nxt2 -robotti. Käytettävä ohjelmointikie
 Lähtökohta on suomalainen opetussuunnitelma hyödyntäen sen mahdollisuuksia oppiainerajat ylittävään opetukseen. Tässä esitettävä suunnitelma on karkea työsuunnitelma, joka tulee muuttumaan paljonkin työn kehittyessä. 
 
 - ev3dev:n asentaminen (huomaa eri versiot, koneet, yms)
-- 
+
 
 - Ruututulostus; kuva ruudulle
 - Tarkkuusajo (viivalta viivalle + käännös ja takaisin)
@@ -44,7 +44,7 @@ Lähtökohta on suomalainen opetussuunnitelma hyödyntäen sen mahdollisuuksia o
 - törmäilyrobotti
 - pölynimurirobotti putsaa legopalaset kentältä
 
-- Viivanseuraaja
+Viivanseuraaja
  - Yhden anturin
  - Kaksi anturia
  - Kolme anturia
@@ -55,7 +55,7 @@ Lähtökohta on suomalainen opetussuunnitelma hyödyntäen sen mahdollisuuksia o
  - ennakoiva
  - muistava
 
-- Ohjelmointiteknisiä juttuja
+Ohjelmointiteknisiä juttuja
  - robottilaskukone
  - näyttäminen ruudulla
  - pingis/ tennis
@@ -64,7 +64,7 @@ Lähtökohta on suomalainen opetussuunnitelma hyödyntäen sen mahdollisuuksia o
  - 
  
  
- - datan käsittely
+datan käsittely
   - datan loggaus ja plottaus
   - 
   
@@ -84,6 +84,8 @@ Muodostetaan tarinallinen lähtökohta.
 # Viitteet
 
 https://peda.net/jyvaskyla/ict/ohjeet/marhle
+https://peda.net/jyvaskyla/ict/ohjeet/pop
+https://peda.net/jyvaskyla/ict/ohjeet/mp
 
-
+http://www.luntti.net/FLL/linkkeja.php
 
