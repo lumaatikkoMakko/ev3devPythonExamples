@@ -81,12 +81,28 @@ datan käsittely
 Muodostetaan tarinallinen lähtökohta.
 
 
+# Ohjelmointiympäristö
+
+Python-koodia voi kirjoittaa melkein millä tahansa, mutta tässä käytämme MS Visual Studio
+
 
 # Viitteet
 
 https://peda.net/jyvaskyla/ict/ohjeet/marhle
+
 https://peda.net/jyvaskyla/ict/ohjeet/pop
+
 https://peda.net/jyvaskyla/ict/ohjeet/mp
 
 http://www.luntti.net/FLL/linkkeja.php
+
+
+Asentaminen
+
+https://www.youtube.com/watch?v=TNXqizQTZhs&feature=youtu.be
+
+CS code workflow
+
+https://www.youtube.com/watch?v=cqtRqsI6xMc&feature=youtu.be
+
 
