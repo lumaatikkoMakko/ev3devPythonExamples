@@ -2,6 +2,7 @@
 Create simple but advanced programming exercises for grades 6-12 using Lego Mindstorms and Python.
 The project will be in Finnish.
 
+# Toiminnallista matematiikkaa
 # Python-robotiikkaa yläkoululaisille 
 
 Yksinkertaisia, mutta riittävän mielenkiintoisia robotiikkakoodeja ohjeineen, johdantoineen sekä tehtävineen sekä oppilaille että oppilaille.
