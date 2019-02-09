@@ -1,7 +1,6 @@
 Linkkejä videoihin
-
-https://www.youtube.com/watch?v=77W2JSL7-r8
+https://youtu.be/77W2JSL7-r8
 Lyhyt tutoriaali github desktop -ohjelmaan
 
-https://www.youtube.com/watch?v=j0-ATIe6pqg
+https://youtu.be/j0-ATIe6pqg
 Ev3dev -moottorinohjaus, muuttujat ja metodit
