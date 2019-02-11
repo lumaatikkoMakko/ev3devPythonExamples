@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+#kirjoitellaan aluksi shebang, joka tulee jokaiselle riville
+from ev3dev2.led import Leds
+from time import sleep 
+#sitten avataan tarvittavat k‰skyt kirjastoista
+
+leds = Leds()
+#muutetaan objektin nimi helpompaan muotoon
+
+leds.all_off()
+#ensin sammutetaan kaikki ledit
+sleep(1)
+#ja pidet‰‰n pieni tauko
+leds.set_color('LEFT', 'RED')
+leds.set_color('RIGHT','RED')
+#k‰ytet‰‰n metodia set_color ja s‰‰det‰‰n molempien puolien ledit punaiseksi
+sleep(1)
+#sleep-komennolla s‰‰det‰‰n kuinka pitk‰‰n ledit palavat
+#harjoitellaan edellisi‰ komentoja, kokeile eri v‰rej‰
+leds.set_color('LEFT', 'AMBER')
+leds.set_color('RIGHT', 'AMBER')
+sleep(1)
+leds.set_color('LEFT', 'GREEN')
+leds.set_color('RIGHT', 'GREEN')
+sleep(1)
+leds.set_color('LEFT','YELLOW')
+leds.set_color('RIGHT','YELLOW')
+sleep(1)
+leds.set_color('LEFT', 'ORANGE')
+leds.set_color('RIGHT','ORANGE')
+sleep(1)
+leds.all_off()
+#viimeisen‰ sammutetaan kaikki ledit
