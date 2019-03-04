@@ -1,33 +1,36 @@
+
+T‰ss‰ harjoituksessa harjoitellaan EV3:n p‰‰ll‰ olevien ledien ohjelmointia. 
+Alla yksi esimerkki ohjelmasta jolla vaihdellaan ledien v‰rej‰.
+
+
+
 #!/usr/bin/env python3
-#kirjoitellaan aluksi shebang, joka tulee jokaiselle riville
+#jokainen ohjelma alkaa ns.shebangilla
+
 from ev3dev2.led import Leds
-from time import sleep 
+from time import sleep
 #sitten avataan tarvittavat k‰skyt kirjastoista
 
-leds = Leds()
+led = Leds()
 #muutetaan objektin nimi helpompaan muotoon
 
-leds.all_off()
-#ensin sammutetaan kaikki ledit
+led.all_off()
+#sammutetaan kaikki ledit
 sleep(1)
-#ja pidet‰‰n pieni tauko
-leds.set_color('LEFT', 'RED')
-leds.set_color('RIGHT','RED')
+#ja pidet‰‰n sekunnin tauko
+led.set_color('LEFT', 'RED')
+led.set_color('RIGHT','RED')
 #k‰ytet‰‰n metodia set_color ja s‰‰det‰‰n molempien puolien ledit punaiseksi
 sleep(1)
 #sleep-komennolla s‰‰det‰‰n kuinka pitk‰‰n ledit palavat
+led.set_color('LEFT', 'GREEN')
+led.set_color('RIGHT', 'YELLOW')
+sleep(1)
 #harjoitellaan edellisi‰ komentoja, kokeile eri v‰rej‰
-leds.set_color('LEFT', 'AMBER')
-leds.set_color('RIGHT', 'AMBER')
-sleep(1)
-leds.set_color('LEFT', 'GREEN')
-leds.set_color('RIGHT', 'GREEN')
-sleep(1)
-leds.set_color('LEFT','YELLOW')
-leds.set_color('RIGHT','YELLOW')
-sleep(1)
-leds.set_color('LEFT', 'ORANGE')
-leds.set_color('RIGHT','ORANGE')
-sleep(1)
-leds.all_off()
-#viimeisen‰ sammutetaan kaikki ledit
+
+led.all_off()
+#lopuksi sammutetaan kaikki ledit
+
+Harjoitus 1.
+1. Kirjoita ohjelma jossa molemmat ledit palavat ensin kolme sekuntia punaisena, 
+sitten kolme sekuntia keltaisena ja lopuksi yhden sekunnin vihre‰n‰.
