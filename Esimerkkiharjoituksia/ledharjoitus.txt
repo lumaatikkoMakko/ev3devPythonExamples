@@ -1,0 +1,36 @@
+
+T‰ss‰ harjoituksessa harjoitellaan EV3:n p‰‰ll‰ olevien ledien ohjelmointia. 
+Alla yksi esimerkki ohjelmasta jolla vaihdellaan ledien v‰rej‰.
+
+
+
+#!/usr/bin/env python3
+#jokainen ohjelma alkaa ns.shebangilla
+
+from ev3dev2.led import Leds
+from time import sleep
+#sitten avataan tarvittavat k‰skyt kirjastoista
+
+led = Leds()
+#muutetaan objektin nimi helpompaan muotoon
+
+led.all_off()
+#sammutetaan kaikki ledit
+sleep(1)
+#ja pidet‰‰n sekunnin tauko
+led.set_color('LEFT', 'RED')
+led.set_color('RIGHT','RED')
+#k‰ytet‰‰n metodia set_color ja s‰‰det‰‰n molempien puolien ledit punaiseksi
+sleep(1)
+#sleep-komennolla s‰‰det‰‰n kuinka pitk‰‰n ledit palavat
+led.set_color('LEFT', 'GREEN')
+led.set_color('RIGHT', 'YELLOW')
+sleep(1)
+#harjoitellaan edellisi‰ komentoja, kokeile eri v‰rej‰
+
+led.all_off()
+#lopuksi sammutetaan kaikki ledit
+
+Harjoitus 1.
+1. Kirjoita ohjelma jossa molemmat ledit palavat ensin kolme sekuntia punaisena, 
+sitten kolme sekuntia keltaisena ja lopuksi yhden sekunnin vihre‰n‰.
